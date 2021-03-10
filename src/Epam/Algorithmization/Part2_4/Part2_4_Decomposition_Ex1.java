@@ -33,8 +33,8 @@ public class Part2_4_Decomposition_Ex1 {
             System.out.println("\nGreatest Common Divisor (GCD) = " + findGreatestCommonDivisor(n, m));
             System.out.println("\nLeast Common Multiple (LCM) = " + findLeastCommonMultiple(n, m));
 
-        } catch (InputMismatchException ex) {
-            System.out.println("Input error! " + ex.getMessage());
+        } catch (IllegalArgumentException | InputMismatchException e) {
+            System.out.println("Input error! " + e.getMessage());
         }
     }
 }
