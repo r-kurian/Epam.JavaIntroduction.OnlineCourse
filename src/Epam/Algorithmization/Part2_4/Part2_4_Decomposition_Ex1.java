@@ -11,7 +11,7 @@ and the least common multiple (LCM) of two natural numbers.
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Part2_4_Sorting_Ex1 {
+public class Part2_4_Decomposition_Ex1 {
 
 
     static int findGreatestCommonDivisor(int n, int m) {
