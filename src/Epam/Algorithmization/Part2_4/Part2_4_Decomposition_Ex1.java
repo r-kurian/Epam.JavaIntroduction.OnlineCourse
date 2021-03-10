@@ -13,13 +13,12 @@ import java.util.Scanner;
 
 public class Part2_4_Decomposition_Ex1 {
 
-
-    static int findGreatestCommonDivisor(int n, int m) {
-        return m == 0 ? n : findGreatestCommonDivisor(m, n % m); // Euclid's Algorithm
+    static int gcd(int n, int m) {
+        return m == 0 ? n : gcd(m, n % m); // Euclid's Algorithm
     }
 
-    static int findLeastCommonMultiple(int n, int m) {
-        return (n * m) / findGreatestCommonDivisor(n, m);
+    static int lcm(int n, int m) {
+        return (n * m) / gcd(n, m);
     }
 
     public static void main(String[] args) {
@@ -30,8 +29,8 @@ public class Part2_4_Decomposition_Ex1 {
             int n = sc.nextInt();
             int m = sc.nextInt();
 
-            System.out.println("\nGreatest Common Divisor (GCD) = " + findGreatestCommonDivisor(n, m));
-            System.out.println("\nLeast Common Multiple (LCM) = " + findLeastCommonMultiple(n, m));
+            System.out.println("\nGreatest Common Divisor (GCD) = " + gcd(n, m));
+            System.out.println("\nLeast Common Multiple (LCM) = " + lcm(n, m));
 
         } catch (IllegalArgumentException | InputMismatchException e) {
             System.out.println("Input error! " + e.getMessage());
