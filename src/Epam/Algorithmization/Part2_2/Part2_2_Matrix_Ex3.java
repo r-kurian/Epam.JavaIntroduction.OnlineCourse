@@ -14,12 +14,12 @@ public class Part2_2_Matrix_Ex3 {
         try {
 
             // Matrix creating
-            Scanner sc = new Scanner(System.in);
+            Scanner in = new Scanner(System.in);
             int numOfRow, numOfColumns;
             do {
                 System.out.println("Enter integers \"n\" and \"m\", the size of the matrix:");
-                numOfRow = sc.nextInt();
-                numOfColumns = sc.nextInt();
+                numOfRow = in.nextInt();
+                numOfColumns = in.nextInt();
             } while (numOfRow <= 0 || numOfColumns <= 0);
 
             int matrix[][] = new int[numOfRow][numOfColumns];
@@ -38,8 +38,8 @@ public class Part2_2_Matrix_Ex3 {
             int k, p;
             do {
                 System.out.println("\nEnter integers \"k\" and \"p\", the numbers of row and column:");
-                k = sc.nextInt();
-                p = sc.nextInt();
+                k = in.nextInt();
+                p = in.nextInt();
             } while (k < 1 || k > numOfRow || p < 1 || p > numOfColumns);
 
             System.out.println("\nElements of the row #" + k + ":");

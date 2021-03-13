@@ -12,13 +12,13 @@ import java.util.Scanner;
 public class Part2_2_Matrix_Ex1 {
     public static void main(String[] args) {
         try {
-            Scanner sc = new Scanner(System.in);
+            Scanner in = new Scanner(System.in);
             int numOfRow;
             int numOfColumns;
             do {
                 System.out.println("Enter integers \"n\" and \"m\", the size of the matrix:");
-                numOfRow = sc.nextInt();
-                numOfColumns = sc.nextInt();
+                numOfRow = in.nextInt();
+                numOfColumns = in.nextInt();
             } while (numOfRow <= 0 || numOfColumns <= 0);
 
             // create matrix

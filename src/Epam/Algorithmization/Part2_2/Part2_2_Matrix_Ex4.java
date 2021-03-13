@@ -21,11 +21,11 @@ public class Part2_2_Matrix_Ex4 {
     public static void main(String[] args) {
         try {
 
-            Scanner sc = new Scanner(System.in);
+            Scanner in = new Scanner(System.in);
             int numOfRowAndColumns;
             do {
                 System.out.println("Enter an even integer \"n\", the size of square matrix:");
-                numOfRowAndColumns = sc.nextInt();
+                numOfRowAndColumns = in.nextInt();
             } while (numOfRowAndColumns <= 0 || numOfRowAndColumns % 2 != 0);
 
             int matrix[][] = new int[numOfRowAndColumns][numOfRowAndColumns];
