@@ -6,7 +6,7 @@ package Epam.Strings_and_basics_of_text_processing.Part3_3;
 закрывающий тег, содержимое тега, тег без тела).
 Пользоваться готовыми парсерами XML для решения данной задачи нельзя.
 
-Write an analyzer for xml document that allows sequentially return the contents
+Write a parser for xml document that allows sequentially return the contents
 of the nodes of the xml document and its type  (opening tag, closing tag, tag content, tag without body).
 Don't use ready-made XML parsers to solve this problem.
 
@@ -39,12 +39,19 @@ public class Part3_3_Regex_Ex2 {
 
     public static void main(String[] args) throws IOException {
 
-        Scanner sc = new Scanner(new File("C:\\Users\\UserName\\Desktop\\xml.txt"));
-        String myXMLString = sc.useDelimiter("\\A").next();
-        sc.close();
+        System.out.println("Enter the path for your file with XML-example:");
+
+        Scanner scForPath = new Scanner(System.in);
+        String myPathScanner = scForPath.nextLine();
+
+        Scanner scForFile = new Scanner(new File(myPathScanner));
+        String myXMLString = scForFile.useDelimiter("\\A").next();
+        scForFile.close();
 
         Pattern myPattern = Pattern.compile(XML_SPLIT_REGEX);
         Matcher findTag = myPattern.matcher(myXMLString);
+
+        System.out.println("The result of XML-Parsers work:");
 
         while (findTag.find()) {
 
