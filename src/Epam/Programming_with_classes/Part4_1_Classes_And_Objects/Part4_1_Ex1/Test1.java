@@ -1,13 +1,10 @@
 package Epam.Programming_with_classes.Part4_1_Classes_And_Objects.Part4_1_Ex1;
 
 /*
-Создайте класс Test1 двумя переменными. Добавьте метод вывода на экран
-и методы изменения этих переменных. Добавьте метод, который находит сумму значений
-этих переменных, и метод, который находит наибольшее значение из этих двух переменных.
-
-Create class Test1 with two variables. Add a display method and methods
-for modifying these variables. Add a method that finds the sum of the values
-of these variables, and a method that finds the largest value of these two variables.
+Create class Test1 with two variables.
+1) Add a display method and methods for modifying these variables.
+2) Add a method that finds the sum of the values of these variables,
+3) and a method that finds the largest value of these two variables.
 */
 
 public class Test1 {

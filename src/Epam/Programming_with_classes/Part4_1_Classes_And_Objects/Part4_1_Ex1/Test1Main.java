@@ -4,6 +4,10 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /*
+Создайте класс Test1 двумя переменными. Добавьте метод вывода на экран
+и методы изменения этих переменных. Добавьте метод, который находит сумму значений
+этих переменных, и метод, который находит наибольшее значение из этих двух переменных.
+
 Create class Test1 with two variables.
 1) Add a display method and methods for modifying these variables.
 2) Add a method that finds the sum of the values of these variables,
