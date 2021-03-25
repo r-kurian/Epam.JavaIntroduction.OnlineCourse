@@ -23,8 +23,6 @@ and a method for getting its current current.
 
 // cyclical decade counter (i.e. for such a counter 4-5 = 9 or 9 + 2 = 1)
 
-import Epam.Sandbox.Sandbox;
-
 import java.util.Scanner;
 
 public class DecadeCounterMain {
