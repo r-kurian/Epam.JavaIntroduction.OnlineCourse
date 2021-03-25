@@ -8,8 +8,6 @@ Describe the class of the triangle.
 Provide methods for creating objects, calculating the area, perimeter and intersection of the medians.
 */
 
-import Epam.SandboxMyTest.SandboxMyTest;
-
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
