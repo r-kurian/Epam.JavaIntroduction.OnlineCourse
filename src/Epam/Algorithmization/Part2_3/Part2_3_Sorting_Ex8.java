@@ -41,7 +41,7 @@ public class Part2_3_Sorting_Ex8 {
         for (int i = 1; i < numOfFractions; ++i)
             myLCM = findLeastCommonMultiple(myLCM, arrayOfDenominator[i]);
         for (int i = 0; i < numOfFractions; ++i) {
-            arrayOfNumerator[i] *= (myLCM / arrayOfDenominator[i]);
+            arrayOfNumerator[i] *= ((double) myLCM / arrayOfDenominator[i]);
             arrayOfDenominator[i] = myLCM;
         }
         System.out.println(myLCM);
