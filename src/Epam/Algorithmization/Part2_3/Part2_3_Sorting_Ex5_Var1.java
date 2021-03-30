@@ -25,9 +25,9 @@ We can reduce it to O(log n) by using binary search.
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Part2_3_Sorting_Ex5 {
+public class Part2_3_Sorting_Ex5_Var1 {
 
-    static void randomizeAndPrintArray(int array[], int n) {
+    static void randomizeAndPrintArray(int[] array, int n) {
         for (int i = 0; i < n; ++i)
             array[i] = 10 + (int) (Math.random() * 89); // [+10 : +99]
         for (int i = 0; i < n; ++i)
@@ -74,7 +74,7 @@ public class Part2_3_Sorting_Ex5 {
             } while (n < 1);
 
             System.out.print("\nRandomized array:\n");
-            int array[] = new int[n];
+            int[] array = new int[n];
             randomizeAndPrintArray(array, n);
 
             System.out.print("\nArray ordered with a help of Binary Insertion sort:\n");
