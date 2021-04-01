@@ -39,6 +39,9 @@ public class AirlineArray {
     }
 
     public static void printAirlineArray() {
+        if (airlineArray == null) {
+            throw new IllegalArgumentException("The numbers of flights couldn't be smaller zero. Try again ");
+        }
         for (Airline x : airlineArray)
             System.out.println(x.toString());
     }
@@ -94,7 +97,7 @@ public class AirlineArray {
     // filter by entered Destination
     public static void filterByMyDestination(String myDestination) {
         if (airlineArray == null) {
-            throw new IllegalArgumentException("No information available. Try another Destination");
+            throw new IllegalArgumentException("No information available. Try another Destination.");
         }
         List<Airline> airlineList = Arrays.asList(airlineArray);
         airlineList.stream().filter(x -> myDestination.equals(x.getDestination()))
@@ -115,7 +118,7 @@ public class AirlineArray {
     // filter by entered Day Of The Week
     public static void filterByMyDay(String myDay) {
         if (airlineArray == null) {
-            throw new IllegalArgumentException("No information available. Try another Day Of The Week");
+            throw new IllegalArgumentException("No information available. Try another Day Of The Week.");
         }
         List<Airline> airlineList = Arrays.asList(airlineArray);
         airlineList.stream().filter(x -> myDay.equals(x.getDaysOfWeek()))
@@ -125,7 +128,7 @@ public class AirlineArray {
     // filter by entered Day Of The Week anf Time
     public static void filterByMyDayAndTime(String myDayOfWeek, LocalTime timeGivenByUser) {
         if (airlineArray == null) {
-            throw new IllegalArgumentException("No information available. Try another Day Of The Week and Time");
+            throw new IllegalArgumentException("No information available. Try another Day Of The Week and Time.");
         }
         List<Airline> airlineList = Arrays.asList(airlineArray);
         airlineList.stream().filter(x -> myDayOfWeek.equals(x.getDaysOfWeek()) && timeGivenByUser.isBefore(x.getDepartureTime()))

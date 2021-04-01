@@ -95,7 +95,7 @@ public class AirlineMain {
                     AirlineArray.footerOfTable();
                 }
                 case 3 -> {
-                    System.out.println("\n>>> Sorted by a Day of the Week (MO->SU)");
+                    System.out.println("\nSorted by a Day of the Week (MO->SU)");
                     AirlineArray.headerOfTable();
                     AirlineArray.sortByDayOfTheWeek();
                     AirlineArray.footerOfTable();
