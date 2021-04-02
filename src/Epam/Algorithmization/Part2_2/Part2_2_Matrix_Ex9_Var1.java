@@ -12,7 +12,7 @@ Also it finds the column with the highest sum of elements.
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Part2_2_Matrix_Ex9 {
+public class Part2_2_Matrix_Ex9_Var1 {
     public static void main(String[] args) {
         try {
 
