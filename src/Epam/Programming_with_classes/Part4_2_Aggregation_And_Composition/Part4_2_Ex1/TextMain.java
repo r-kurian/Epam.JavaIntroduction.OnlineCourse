@@ -8,16 +8,6 @@ Create an object of the Text class using the Sentence, Word classes.
 Methods: add text, display text to console, text title.
 */
 
-/*Создать приложение, удовлетворяющее требованиям, приведенным в задании.
-Аргументировать принадлежность классу каждого создаваемого метода и
-корректно переопределить для каждого класса методы equals(), hashCode(), toString().
-
-Глава 4, ст. 80, file:///C:/Users/Roman/Desktop/Java.Programming.pdf
- */
-
-import Epam.Sandbox2.Sandbox2Sentence;
-import Epam.Sandbox2.Sandbox2Word;
-
 public class TextMain {
 
     public static void main(String[] args) {
