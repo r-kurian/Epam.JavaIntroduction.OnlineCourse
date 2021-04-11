@@ -27,7 +27,7 @@ public class Part2_2_Matrix_Ex11 {
         }
     }
 
-    public static void findRowWithNumber5MoreThen3TimesOccur(int[][] matrix, int numOfColumns) {
+    public static void findRowWithNumber5MoreThen3TimesOccur(int[][] matrix) {
         for (int i = 0; i < matrix.length; i++) {
             int countFive = 0;
             for (int j = 0; j < matrix[i].length; j++) {
@@ -51,6 +51,6 @@ public class Part2_2_Matrix_Ex11 {
         printMatrix(matrix, numOfRow, numOfColumns);
 
         System.out.println("\nIndex of the rows in which the number 5 occurs 3 or more times:");
-        findRowWithNumber5MoreThen3TimesOccur(matrix, numOfColumns);
+        findRowWithNumber5MoreThen3TimesOccur(matrix);
     }
 }
