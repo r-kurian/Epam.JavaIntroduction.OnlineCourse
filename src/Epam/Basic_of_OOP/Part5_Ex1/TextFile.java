@@ -18,21 +18,21 @@ public class TextFile extends java.io.File {
     }
 
     private Directory directory;
-    private static Epam.Sandbox.File file;
+    private static TextFile file;
 
-    public TextFile(@NotNull String pathname, Directory directory, Epam.Sandbox.File file) {
+    public TextFile(@NotNull String pathname, Directory directory, TextFile file) {
         super(pathname);
         this.directory = directory;
         TextFile.file = file;
     }
 
-    public TextFile(String parent, @NotNull String child, Directory directory, Epam.Sandbox.File file) {
+    public TextFile(String parent, @NotNull String child, Directory directory, TextFile file) {
         super(parent, child);
         this.directory = directory;
         TextFile.file = file;
     }
 
-    public TextFile(File parent, @NotNull String child, Directory directory, Epam.Sandbox.File file) {
+    public TextFile(File parent, @NotNull String child, Directory directory, TextFile file) {
         super(parent, child);
         this.directory = directory;
         TextFile.file = file;
@@ -46,7 +46,7 @@ public class TextFile extends java.io.File {
         this.directory = directory;
     }
 
-    public void setFile(Epam.Sandbox.File file) {
+    public void setFile(TextFile file) {
         TextFile.file = file;
     }
 
