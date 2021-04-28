@@ -1,5 +1,9 @@
 package Epam.Basic_of_OOP.Part5_Ex5a;
 
+/* Create an application that creates a flower bouquet (an object that represents a flower arrangement).
+Flowers and packages are the components of the bouquet.
+*/
+
 
 /*
 Реализовать приложение, позволяющее создавать цветочные композиции (объект, представляющий собой цветочную композицию). Составляющими цветочной композиции являются цветы и упаковка.
