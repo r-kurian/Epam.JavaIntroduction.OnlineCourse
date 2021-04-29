@@ -1,17 +1,19 @@
 package Epam.Basics_of_software_code_development.Part1_1;
 
-import java.util.InputMismatchException;
-import java.util.Scanner;
+/*
+Enter a natural number T, which represents time in seconds. Print the given duration value in hours, minutes
+and seconds in the following form: ННh MMmin SSs.
+*/
 
 /*
 Дано натуральное число Т, которое представляет длительность прошедшего времени в секундах.
 Вывести данное значение длительности в часах, минутах и секундах в следующей форме:
 ННч ММмин SSc.
-
-Enter a natural number T, which represents the time in seconds.
-Print the given duration value in hours, minutes and seconds in the following form:
-ННh MMmin SSs.
 */
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
 public class Part1_1_Linear_Program_Ex5 {
     public static void main(String[] args) {
         try {

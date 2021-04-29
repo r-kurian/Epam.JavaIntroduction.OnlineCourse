@@ -1,11 +1,13 @@
 package Epam.Basics_of_software_code_development.Part1_1;
 
 /*
-Дано действительное число R вида nnn.ddd (три цифровых разряда в дробной и целой частях).
-Поменять местами дробную и целую части числа и вывести полученное значение числа.
-
 Real number R has the form nnn.ddd (three digits in fractional and integer parts).
 Swap the fractional and integer parts of the number and print it.
+ */
+
+/*
+Дано действительное число R вида nnn.ddd (три цифровых разряда в дробной и целой частях).
+Поменять местами дробную и целую части числа и вывести полученное значение числа.
  */
 
 import java.util.InputMismatchException;

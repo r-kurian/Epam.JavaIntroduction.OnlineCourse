@@ -1,7 +1,13 @@
 package Epam.Basics_of_software_code_development.Part1_1;
 
-// Вычислить значение выражения по формуле (все переменные принимают действительные значения)
-// Calculate the value of the expression using the formula (all variables are valid)
+/*
+Calculate the value of the expression using the formula (all variables are valid): see pdf-file
+*/
+
+/*
+Вычислить значение выражения по формуле (все переменные принимают действительные значения)
+*/
+
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

@@ -1,7 +1,11 @@
 package Epam.Basics_of_software_code_development.Part1_1;
 
 /*
-Вычисляет выражения по формуле / calculates expressions according to using the formula:
+Calculate an expression according to the formula: (b+sqrt(b^2+4*a*c))/(2*a) - a^3*c+ b^-2
+*/
+
+/*
+Вычислить значение выражения по формуле (все переменные принимают действительные значения):
 (b+sqrt(b^2+4*a*c))/(2*a) - a^3*c+ b^-2
  */
 

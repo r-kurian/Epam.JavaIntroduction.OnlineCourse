@@ -1,12 +1,14 @@
 package Epam.Basics_of_software_code_development.Part1_1;
 /*
-Для данной области составить линейную программу, которая печатает true,
-если точка с координатами (х, у) принадлежит закрашенной области,
-и false — в противном случае.
-
 For a given area compose a linear program that prints "true"
 if the point with coordinates (x, y) belongs to the filled area,
 and "false" otherwise.
+ */
+
+/*
+Для данной области составить линейную программу, которая печатает true,
+если точка с координатами (х, у) принадлежит закрашенной области,
+и false — в противном случае.
  */
 
 import java.util.InputMismatchException;
