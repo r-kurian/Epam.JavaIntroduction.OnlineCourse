@@ -1,12 +1,15 @@
 package Epam.Basics_of_software_code_development.Part1_2;
 
 /*
-Вычисляет значение функии:
+Find the value of the function: see pdf-file
+if: x<=3 x^2-3x+9
+if: x>3 1/(x^3+6)
+ */
 
-Find the value of the function:
-
-если /if: x<=3 x^2-3x+9
-если /if: x>3 1/(x^3+6)
+/*
+Вычисляет значение функии: см. pdf-файл
+если x<=3 x^2-3x+9
+если x>3 1/(x^3+6)
  */
 
 import java.util.InputMismatchException;

@@ -1,10 +1,13 @@
 package Epam.Basics_of_software_code_development.Part1_2;
+
+/*
+Find out, if with a given two angles of the triangle (in degrees) can such a triangle exists,
+and if so, whether it will be rectangular.
+*/
+
 /*
 Даны два угла треугольника (в градусах). Определить,
 существует ли такой треугольник, и если да, то будет ли он прямоугольным.
-
-Are given two angles of the triangle (in degrees).
-Find, if such a triangle exists, and if so, whether it will be rectangular.
 */
 
 import java.util.InputMismatchException;
