@@ -1,28 +1,32 @@
 package Epam.Basics_of_software_code_development.Part1_3;
+/*
+In a given series of numbers find the sum of series' elements, whose modulus is greater than or equal
+to a given e. The series of numbers is: an = 1 / (2 ^ n + 3 ^ n)
+ */
 
 /*
 Даны числовой ряд и некоторое число е. Найти сумму тех членов ряда, модуль которых больше или равен
 заданному е. Общий член ряда имеет вид: an=1/(2^n+3^n)
-
-Given a number series and some number e.
-Find the sum of those series's elements, whose modulus is greater than or equal to a given e.
-The number series is: an = 1 / (2 ^ n + 3 ^ n)
  */
 
 public class Part1_3_Loops_Ex5 {
-    public static void task35(int rowLength, double e) {
-        double summ = 0;
+
+    public static void main(String[] args) {
+        int rowLength = 2;
+        double e = 0.83;
+        double sum = 0;
         for (int i = 1; i <= rowLength; i++) {
             double a = (1 / Math.pow(2, i) + 1 / Math.pow(3, i));
             if (a >= Math.abs(e)) {
-                summ += a;
+                sum += a;
                 System.out.println("n = " + i);
             }
             System.out.println("a = " + a);
         }
-        System.out.println("result " + summ);
+        System.out.println("result " + sum);
     }
 }
+
 /* Пояснение логики из форумов:
 "Точность e - обычно это вещественное число, меньше единицы.
 Например, 0,01 или 0,0001 или 0,00025.

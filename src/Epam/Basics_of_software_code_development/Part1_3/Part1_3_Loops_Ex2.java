@@ -1,13 +1,14 @@
 package Epam.Basics_of_software_code_development.Part1_3;
+/*
+Find the values of the function on the segment [a, b] with step h:
+x, x>2
+-x, x<=2
+*/
 
 /*
 Вычислить значения функции на отрезке [а,b] c шагом h:
-
-Find the values of the function on the segment [a, b] with step h:
-
 x, x>2
 -x, x<=2
-
 */
 
 import java.util.InputMismatchException;
@@ -44,7 +45,7 @@ public class Part1_3_Loops_Ex2 {
             } else {
                 System.out.println("Function value = " + (-x));
             }
-            System.out.println(i++); //не понимаю, почему выдает +1 шаг к длинне отрезка
+            System.out.println(i++);
         }
     }
 }

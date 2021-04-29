@@ -6,14 +6,9 @@ package Epam.Basics_of_software_code_development.Part1_3;
 */
 
 /*
-В цикле перебирать числа от m до n и проверять делимость каждого на натуральные числа от 2 до m-1.
-Если число делится нацело на текущий делитель, то выводить делитель на экран.
-В конце каждой итерации цикла увеличивать m на единицу.
-
-With a help of loop check the divisibility by natural numbers from 2 to m-1
-the numbers from m to n. Display all divisible numbers.
-At the end of each iteration, increase m by one.
- */
+For each natural number in the range from m to n, show all divisors except 1 and the number itself.
+m and n are entered from the keyboard.
+*/
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

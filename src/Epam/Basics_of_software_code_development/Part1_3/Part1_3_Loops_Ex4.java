@@ -1,5 +1,7 @@
 package Epam.Basics_of_software_code_development.Part1_3;
 
+// Write a program for finding the product of the squares of the first two hundred numbers.
+
 // Составить программу нахождения произведения квадратов первых двухсот чисел.
 
 import java.math.BigInteger;
