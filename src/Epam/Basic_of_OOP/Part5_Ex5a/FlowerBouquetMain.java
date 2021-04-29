@@ -2,6 +2,14 @@ package Epam.Basic_of_OOP.Part5_Ex5a;
 
 /* Create an application that creates a flower bouquet (an object that represents a flower arrangement).
 Flowers and packages are the components of the bouquet.
+
+ In your application you should meet the following requirements:
+• Correctly design and implement the problem domain.
+• Consider using generative design patterns to create objects from a class hierarchy.
+• Implement user input validation, but not client-side.
+• Regular expressions can be used to check the correctness of the transmitted data.
+• The menu for selecting an action by the user can be omitted, use a stub.
+• Special Condition: Override the toString (), equals (), and hashCode () methods where necessary.
 */
 
 
