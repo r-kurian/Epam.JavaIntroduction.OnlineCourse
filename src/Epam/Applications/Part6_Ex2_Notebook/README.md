@@ -1,20 +1,20 @@
-# HOME LIBRARY (Part 6, Task 1)
+# NOTEBOOK (Part 6, Task 2)
 ## _EPAM Java Introduction Online Course_
 
-Create a Console Application “Home Library”.
+Create a console application that works with Notes in Notebook. Each Note consists of a subject,  a date, an e-mail address and a  message body.
 
-## General requirements for the application:
+## General explanations for the task:
 
-- The system takes into account ebooks and paper versions of books.
-- Existing roles: user, administrator.
-- The administrator can modify the book catalog.
-- The book catalog is stored in a text file.
-- User authentication data is stored in a text file. The password is not stored in cleartext.
+- The data should be read from the file and saved to the file at the end of the work.
+- The user should be able to find a note by any parameter or by a group of parameters (you can define a group of parameters yourself): 
+ -- get the required note in a sorted form, 
+ -- find the note, 
+ -- the text field of which contains a specific word, 
+ -- and add a new note.
 
 ## Special conditions:
 
-> -- When a book description is added to the catalog, a notification about it is sent to all users by e-mail.
-> -- While catalog browsing, it is desirable to implement page-by-page view.
-> -- The user can suggest adding a book to the library by sending it to the administrator by e-mail.
+> ***  Search, compare and validate the input information using regular expressions.
+> *** Verification of the entered information for validity should be carried out by the code that directly adds the information.
 
 @r-kurian
